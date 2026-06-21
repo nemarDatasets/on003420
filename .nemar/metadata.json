@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "HD-EEGtask(Dataset 1)",
-  "description": "This high-density EEG dataset comprises resting-state and task-based recordings from 23 healthy volunteers performing visual naming and spelling tasks. Collected between 2012-2013 at Rennes University Hospital using a 256-electrode EEG system, the dataset enables investigation of dynamic functional brain network reorganization during language production and orthographic processing. The study provides insights into spatiotemporal patterns of cortical activity underlying cognitive language functions.",
-  "methods_description": "High-density EEG (256 electrodes, EGI system) acquired at 1000 Hz sampling frequency with impedances maintained below 5 kΩ. Participants performed two conditions (visual naming and spelling tasks) with two runs each containing 74 stimuli. Visual stimuli were presented using E-Prime software, and speech responses were recorded via microphone and analyzed for onset detection using Praat.",
+  "description": "This high-density EEG dataset comprises resting-state and task-based recordings from 23 healthy volunteers performing visual naming and spelling tasks. Collected between 2012-2013 at Rennes University Hospital using a 256-electrode EEG system, the dataset enables investigation of dynamic functional brain network reorganization during language production and cognitive processing. The study provides insights into spatiotemporal patterns of brain connectivity during object naming and orthographic tasks.",
+  "methods_description": "High-density EEG (256 electrodes, EGI system) was recorded at 1000 Hz sampling frequency with impedances maintained below 5 kΩ. Participants performed two conditions (visual naming and spelling tasks) with two runs each containing 74 stimuli. Visual stimuli were presented using E-Prime Psychology Software Tools, and speech responses were recorded via microphone and analyzed using Praat v5.3.13 for speech onset detection.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,7 +34,7 @@
       "term": "language production"
     },
     {
-      "term": "cortical connectivity"
+      "term": "cognitive task"
     }
   ],
   "related_identifiers": [
