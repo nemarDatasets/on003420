@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "HD-EEGtask(Dataset 1)",
+  "description": "This high-density EEG dataset comprises resting-state and task-based recordings from 23 healthy volunteers performing visual naming and spelling tasks. Collected between 2012-2013 at Rennes University Hospital using a 256-electrode EEG system, the dataset enables investigation of dynamic functional brain network reorganization during language production and orthographic processing. The study provides insights into spatiotemporal patterns of cortical activity underlying cognitive language functions.",
+  "methods_description": "High-density EEG (256 electrodes, EGI system) acquired at 1000 Hz sampling frequency with impedances maintained below 5 kΩ. Participants performed two conditions (visual naming and spelling tasks) with two runs each containing 74 stimuli. Visual stimuli were presented using E-Prime software, and speech responses were recorded via microphone and analyzed for onset detection using Praat.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,29 @@
     "Fabrice Wendling": {},
     "Mahmoud Hassan": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003420.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "naming task"
+    },
+    {
+      "term": "functional brain networks"
+    },
+    {
+      "term": "language production"
+    },
+    {
+      "term": "cortical connectivity"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003420",
       "identifier_type": "URL",
@@ -28,56 +47,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003420",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".bmp",
-    ".db",
-    ".eeg",
-    ".es2",
-    ".gitattributes",
-    ".json",
-    ".m",
-    ".md",
-    ".raw",
-    ".rtf",
-    ".tsv",
-    ".vhdr",
-    ".vmrk",
-    ".xlsx"
-  ],
-  "description": "This high-density EEG dataset comprises resting-state and task-based recordings from 23 healthy volunteers collected during visual naming and spelling tasks. Participants performed two conditions (naming and spelling) with two runs each, viewing pictures of animals and objects while EEG was recorded using a 256-electrode system. The dataset supports investigation of dynamic functional brain network reorganization during language production and cognitive tasks.",
-  "methods_description": "High-density EEG (256 electrodes, EGI system) was recorded at 1000 Hz sampling frequency with impedances maintained below 5 kΩ. Participants performed visual naming and spelling tasks with 74 stimuli per run, presented using E-Prime software. Speech responses were recorded via microphone and analyzed for onset detection using Praat v5.3.13.",
-  "keywords": [
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "EEG"
-    },
-    {
-      "term": "resting state"
-    },
-    {
-      "term": "naming task"
-    },
-    {
-      "term": "language production"
-    },
-    {
-      "term": "functional connectivity"
-    },
-    {
-      "term": "brain networks"
+      "identifier": "10.18112/openneuro.ds003420.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -93,7 +67,35 @@
     },
     {
       "funder_name": "National Council for Scientific Research (CNRS)"
+    },
+    {
+      "funder_name": "Rennes University Hospital",
+      "award_number": "conneXion"
     }
   ],
-  "source_hash": "18c1dde614bb7740a153fd00b7b2b5f41a8096cf446419c0d5afe20479eab012"
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "97.1 GB (504 files)"
+  ],
+  "formats": [
+    ".bmp",
+    ".db",
+    ".eeg",
+    ".es2",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".md",
+    ".raw",
+    ".rtf",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".xlsx",
+    ".yml"
+  ],
+  "source_hash": "1afadbbfc64ba543fb8e692eeffcc8b62a3258c9341e93791adc6d38b3cc5b21"
 }
